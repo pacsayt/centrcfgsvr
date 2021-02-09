@@ -8,6 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: /home/tamas/projektek/centrcfgsvr/configuration
+          uri: ${HOME}/projektek/centrcfgsvr/configuration
 #          uri: /home/tamas/projektek/centrcfgsvr/configuration # pt++ : must be in this file or else it won't work
 #          searchPaths: <subdirectory_1> <subdirectory_2> ... <subdirectory_n>
