@@ -1,13 +1,9 @@
-spring:
-  application:
-    name: cli
-  cloud:
-    config:
-      uri: http://localhost:8888
-
 # https://soshace.com/spring-cloud-config-refresh-strategies/
+spring:
+  cloud:
     bus:
       enabled: true
+      id: cfgsvc
     stream:
       kafka:
         binder:
