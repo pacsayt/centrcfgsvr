@@ -18,5 +18,4 @@ public class CfgsvcApplication
 	{
 		SpringApplication.run(CfgsvcApplication.class, args);
 	}
-
 }
